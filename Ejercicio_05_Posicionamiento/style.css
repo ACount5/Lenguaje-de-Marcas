@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0}
+.caja-fija {
+position: fixed;
+bottom: 20px;
+right: 20px;
+border: 56px;
+background-color: aqua;
+border-radius: 6px;
+}
+
+.contenedor-relativo { position: relative; }
+.caja-absoluta {
+position: absolute;
+top: 20px;
+right: 20px;
+}
+.caja-sticky {
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: deeppink;
+    
+}
