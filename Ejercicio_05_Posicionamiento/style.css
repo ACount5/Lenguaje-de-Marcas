@@ -1,27 +1,79 @@
-* { margin: 0; padding: 0}
-.caja-fija {
-position: fixed;
-bottom: 20px;
-right: 20px;
-border: 56px;
-background-color: aqua;
-border-radius: 6px;
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    margin: 0;
+    padding-bottom: 500px;
+    background-color: #fce4ec;
 }
 
-.contenedor-relativo { position: relative; }
-.caja-absoluta {
-position: absolute;
-top: 20px;
-right: 20px;
+header {
+    background-color: #e75bc4;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
+
+.caja-fija {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    background-color: #ad0374;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.contenedor-relativo {
+    position: relative;
+    width: 60%;
+    height: 300px;
+    background-color: white;
+    margin: 50px auto;
+    border: 2px dashed #d33267;
+    padding: 20px;
+}
+
+.caja-absoluta {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: #e216e2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.scroll-demo {
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 400px;
+    overflow-y: scroll;
+}
+
 .caja-sticky {
     position: sticky;
     top: 0;
+    background-color: #ffd600;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #fbc02d;
 }
 
-h1{
-    text-align: center;
+footer {
+    background-color: #e91e63;
     color: white;
-    background-color: deeppink;
-    
+    padding: 20px;
+    text-align: center;
 }

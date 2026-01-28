@@ -1,28 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
 .menu-horizontal ul {
-list-style-type: none;
-background-color: #333;
-text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+ }
 
-}
 .menu-horizontal li {
-display: inline-block;
-
-}
-.menu-horizontal li a:hover {
-background-color: #111;
-color: #ffd700;
+    display: inline-block;
 }
 
-.menu-horizontal li a{
+.menu-horizontal li a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
-.boton{
-     padding: 10px;  cursor: pointer; margin-top: 15px; border-radius: 5px;
 
+.menu-horizontal li a:hover {
+    background-color: #9b0606;
+    color: #08f563;
+   
 }
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: transform 0.1s;
+}
+
 .boton-primario {
-    background-color: #2a98e2; color: white;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0056b3;
 }
+.boton-primario:hover {
+    background-color: blue;
+}
+
 .boton-secundario {
-    background-color:white; border: #333;
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.boton-secundario:hover {
+background-color: crimson;
 }
