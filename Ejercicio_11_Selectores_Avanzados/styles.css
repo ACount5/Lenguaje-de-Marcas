@@ -1,0 +1,12 @@
+/* 1. Selección por Atributo */
+a[target="_blank"] {color:red; }
+
+/* 2. Selección por Posición (Pseudo-clase) */
+.lista-items li:nth-child(3) { background: yellow; }
+/* 3. Inserción de Contenido (Pseudo-elemento) */
+li::before { content: "➡️" }
+
+/* 4. Selección por Atributo de Input */
+input[type="text"] { border: 2px solid blue; }
+/* 5. Selección por Negación */
+p:not(.destacado) { opacity: 0.5; }
