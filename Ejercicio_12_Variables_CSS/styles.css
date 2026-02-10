@@ -56,7 +56,10 @@
 /* Modo Oscuro */
 .dark-mode {
     /* Redefine las variables aquí para cambiar a colores oscuros */
-
+--bg-card: #343a40;
+--text-main: #f8f9fa;
+--accent: #17a2b8;
+--border: #495057;
 }
 
 /* Nota: Para que el .dark-mode aplique a todo, deberías aplicarlo al body o un contenedor padre y asegurarte que las variables se hereden o estén definidas en el ámbito correcto */
