@@ -14,7 +14,7 @@
     <!-- Nota: Para probar el modo oscuro, añade manualmente la clase 'dark' a la etiqueta <html> o usa el botón de abajo -->
 
     <div
-        class="min-h-screen flex flex-col items-center justify-center dark:bg-slate-900 bg-gray-50 transition-colors duration-300">
+       class="w-full max-w-sm p-6 rounded-2xl shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700 bg-white dark:bg-slate-900 hover:scale-105 hover:shadow-2xl">
 
         <button onclick="document.documentElement.classList.toggle('dark')"
             class="absolute top-5 right-5 px-4 py-2 bg-gray-200 dark:bg-gray-700 dark:text-white rounded shadow text-sm font-semibold">
@@ -36,20 +36,20 @@
             class="w-full max-w-sm p-6 rounded-2xl shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-700">
             <!-- Añade clases aquí -->
 
-            <h2 class="text-2xl font-bold mb-4">Inicia Sesión</h2>
+            <h2 class="text-2xl font-bold mb-4 text-black dark:text-white">Inicia Sesión</h2>
 
             <form class="space-y-4">
-                <div>
+                <div  class="bg-white dark:bg-slate-900">
                     <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
                     <input type="email"
-                        class="w-full px-4 py-2 border rounded-lg dark:bg-slate-900 dark:text-white dark:border-gray-600"
+                      class="w-full px-4 py-2 border rounded-lg dark:bg-slate-900 dark:text-white dark:border-gray-600 focus:ring-2 focus:border-blue-500 outline-none"
                         placeholder="tu@email.com"> <!-- Añade focus ring aquí -->
                 </div>
 
                 <div>
                     <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Contraseña</label>
                     <input type="password"
-                        class="w-full px-4 py-2 border rounded-lg dark:bg-slate-900 dark:text-white dark:border-gray-600"
+                        class="w-full px-4 py-2 border rounded-lg dark:bg-slate-900 dark:text-white dark:border-gray-600 focus:ring-2 focus:border-blue-500 outline-none"
                         placeholder="••••••••">
                 </div>
 
