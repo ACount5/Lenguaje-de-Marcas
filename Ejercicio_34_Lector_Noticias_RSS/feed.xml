@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="feed.xsd">
+
+  <channel>
+    <title>Mi Blog de Noticias</title>
+
+    <item>
+      <title>Nueva tecnología revoluciona el mercado</title>
+      <author>Juan Pérez</author>
+      <pubDate>2026-03-20</pubDate>
+      <description>Una innovación cambia la industria tecnológica.</description>
+    </item>
+
+    <item>
+      <title>El deporte en auge este año</title>
+      <author>María López</author>
+      <pubDate>2026-03-18</pubDate>
+      <description>Las nuevas tendencias deportivas.</description>
+    </item>
+
+    <item>
+      <title>Economía global en crecimiento</title>
+      <author>Carlos Ruiz</author>
+      <pubDate>2026-03-15</pubDate>
+      <description>Indicadores económicos positivos.</description>
+    </item>
+
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+$color-primario: #0f3ac7;
+$bg: #f8fafc;
+
+body {
+  font-family: Georgia, serif;
+  background: $bg;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: $color-primario;
+}
+
+// Grid tipo periódico
+#noticias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+// Tarjeta noticia
+.noticia {
+  background: white;
+  background-color:lightskyblue;
+  padding: 1.5rem;
+  border-left: 5px solid $color-primario;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .meta {
+    font-size: 0.85rem;
+    color: gray;
+    margin-bottom: 1rem;
+  }
+}

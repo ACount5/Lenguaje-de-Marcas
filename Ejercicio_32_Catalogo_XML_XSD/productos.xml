@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="productos.xsd">
+
+  <producto id="1">
+    <nombre>MTG Bloomburrow Play Booster Display</nombre>
+    <precio>165</precio>
+    <descripcion>Caja de 36 sobres</descripcion>
+    <categoria>TCG</categoria>
+  </producto>
+
+  <producto id="2">
+    <nombre>MTG Teenage Mutant Ninja Turtles Commander Deck</nombre>
+    <precio>60</precio>
+    <descripcion>Mazo de Commander </descripcion>
+    <categoria>TCG</categoria>
+  </producto>
+
+  <producto id="3">
+    <nombre>Tapete Magic Final Fantasy Yuna Ultra PRO</nombre>
+    <precio>20</precio>
+    <descripcion>Tapete de 60x40</descripcion>
+    <categoria>Accesorios TCG</categoria>
+  </producto>
+
+  <producto id="4">
+    <nombre>Fundas Dragon Shiel Power 100 ud</nombre>
+    <precio>11.99</precio>
+    <descripcion>Paquete de 100 fundas</descripcion>
+    <categoria>Accesorios TCG</categoria>
+  </producto>
+
+  <producto id="5">
+    <nombre>Figura S.H. Figuarts Goku SSJ4 </nombre>
+    <precio>75</precio>
+    <descripcion>Figura de 18cms con accesorios</descripcion>
+    <categoria>Merchandising</categoria>
+  </producto>
+
+</catalogo>
