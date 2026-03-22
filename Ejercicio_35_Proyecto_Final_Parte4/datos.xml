@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="schema.xsd">
+
+  <vehiculo id="1">
+    <nombre>Nissan Skyline R34</nombre>
+    <precio>75000</precio>
+    <descripcion>Motor RB26DETT 2.6L biturbo, 280 HP, tracción trasera con sistema ATTESA E-TS y icónica línea GT-R.</descripcion>
+    <marca>Nissan</marca>
+    <imagen>https://cdn.motor1.com/images/mgl/LbPLN/s1/1999-nissan-skyline-gt-r-r34.jpg</imagen>
+  </vehiculo>
+
+  <vehiculo id="2">
+    <nombre>Toyota Supra MK4</nombre>
+    <precio>90000</precio>
+    <descripcion>Motor 2JZ-GTE 3.0L biturbo, 276 HP, tracción trasera, legendario por su capacidad de tuning y velocidad máxima de 250 km/h.</descripcion>
+    <marca>Toyota</marca>
+    <imagen>https://cdn.motor1.com/images/mgl/PKZQL/s1/1997-toyota-supra-sold-for-176-000-at-auction.jpg</imagen>
+  </vehiculo>
+
+  <vehiculo id="3">
+    <nombre>Mazda RX-7 FD</nombre>
+    <precio>60000</precio>
+    <descripcion>Motor rotativo 13B-REW, 276 HP, tracción trasera, peso ligero y diseño aerodinámico que lo hace perfecto para drift y pista.</descripcion>
+    <marca>Mazda</marca>
+    <imagen>https://espirituracer.com/archivos/2019/12/mazda-rx-7-spirit-r-spec-a.jpg</imagen>
+  </vehiculo>
+
+  <vehiculo id="4">
+    <nombre>Honda NSX</nombre>
+    <precio>85000</precio>
+    <descripcion>Motor V6 3.0L DOHC, 280 HP, tracción trasera, chasis de aluminio y suspensión avanzada, superdeportivo japonés de referencia.</descripcion>
+    <marca>Honda</marca>
+    <imagen>https://cdn.shopify.com/s/files/1/2592/7448/files/first-generation-acura-nsx_1024x1024.jpg?v=1690557517</imagen>
+  </vehiculo>
+
+  <vehiculo id="5">
+    <nombre>Mitsubishi Lancer Evo VI</nombre>
+    <precio>55000</precio>
+    <descripcion>Motor turbo 2.0L, 276 HP, tracción AWD con diferencial activo, preparado para rally y aceleración brutal en curvas cerradas.</descripcion>
+    <marca>Mitsubishi</marca>
+    <imagen>https://i.ytimg.com/vi/W2QERcLlfH4/maxresdefault.jpg</imagen>
+  </vehiculo>
+
+</catalogo>
